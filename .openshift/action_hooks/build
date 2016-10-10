@@ -4,9 +4,9 @@
 # before the deploy step.  This script gets executed directly, so it
 # could be python, php, ruby, etc.
 
-install_version="release_stable_2015-08-10a"
+install_version="stable"
 
-download_url="https://codeload.github.com/splitbrain/dokuwiki/tar.gz/${install_version}"
+download_url="https://download.dokuwiki.org/src/dokuwiki/dokuwiki-${install_version}.tgz"
 
 # Download and install Dokuwiki
 
